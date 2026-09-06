@@ -12,7 +12,7 @@ app.use(express.json());
 
 //Gets all contacts
 app.get("/api/contacts", (req, res) => {
-    res.json({"message":"Get all Contacts "});
+    res.status(200).json({"message":"Get all Contacts "});
 });
 
 app.listen(port, () => {
