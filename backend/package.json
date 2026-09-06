@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/TebogoP/Node-JS---Contact-App-Manager#readme",
   "dependencies": {
+    "dotenv": "^17.4.2",
     "express": "^5.2.1"
   }
 }
